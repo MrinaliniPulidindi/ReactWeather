@@ -1,0 +1,8 @@
+var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+
+<Router history=>
+<Route path="/" components="">
+  <IndexRoute component={Weather}></IndexRoute>
+</Router>
+
+  <Route path="about" component={About}/>

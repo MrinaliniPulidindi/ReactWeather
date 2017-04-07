@@ -1,0 +1,40 @@
+GIT - git is a version control system to keep track of changes to our project over time,
+      can download from git-scm.com
+      git init
+      git status
+      .gitignore file- to 
+      git add .
+$ git config user.name MrinaliniPulidindi
+$ git config user.email mrinalini.karem@gmail.com
+git commit m''   --- message
+git commit -a
+
+GitHub - To host our code, easily collaborate, manage issues and pull requests
+
+SSH keys- authenticate, without using username and pswd
+          $ ssh-keygen -t rsa -b 4096 -C 'mrinalini.karem@gmail.com' 
+          $ eval "$(ssh-agent -s)"
+          $ ls -al ~/.ssh
+          $ ssh-add ~/.ssh/id_rsa
+          less /.ssh/id_rsa.pub  -- for windows(copy the key and create new key in github browser)
+          $ ssh -T git@github.com
+
+
+git remote add origin https://github.com/MrinaliniPulidindi/ReactWeather.git
+git remote -v
+
+git push
+
+
+Horeku - to host  into the internet using Git, uses only few commands
+heroku create -- creates heroku site
+git push heroku master  --- creats and deploys the code
+
+1. add script in package.json
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+2. modify server.js
+    use environment variable to access PORT
+redirect https traffic to http (for openWeatherAPI)

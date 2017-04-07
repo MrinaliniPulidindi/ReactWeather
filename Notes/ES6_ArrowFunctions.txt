@@ -1,0 +1,1 @@
+this doesnt refer to the current object in an anonymous function, the this keyword gets updated. Instead we can use an arrow function instead of an anonymous function to use this keyword

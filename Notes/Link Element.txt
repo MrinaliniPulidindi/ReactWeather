@@ -1,0 +1,7 @@
+  <Link to="/">Get Weather
+  </Link>
+
+// same as
+<a href="#/">Get Weather</a>
+
+But Link element has its own custom classes and styles

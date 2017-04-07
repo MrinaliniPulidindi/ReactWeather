@@ -1,0 +1,28 @@
+// function getTempCallback(location, callback)
+// {
+//   callback(undefined,78);
+//   callback('city not found');
+// };
+// getTempCallback('Jacksonville', function(err, temp) {
+//   if(err)
+//   {
+//     console.log('error',err);
+//   }
+//   else {
+//     console.log('success',temp);
+//   }
+// })
+// function getTemPromise(location)
+// {
+//   return new Promise(function(resolve,reject)
+//   {
+//     resolve(78);
+//     reject('city not found');
+//   });
+// }
+//  getTemPromise('Philadelphia').then(function(temp,err)
+//  {
+//    console.log('promise success', temp);
+//  }, function(err){
+//       console.log('promise error', err);
+//  });

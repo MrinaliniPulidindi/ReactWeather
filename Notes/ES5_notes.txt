@@ -1,0 +1,9 @@
+Object Restructuring
+
+1.  var obj ={
+name: "Mrinalini"
+}
+
+var {name} = obj;
+//same as below
+var abc = obj.name;

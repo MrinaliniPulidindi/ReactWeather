@@ -1,0 +1,1 @@
+var requestUrl = `${OPEN_WEATHER_MAP_URL}&q=${encodedLocation}`;

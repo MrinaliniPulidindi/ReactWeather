@@ -1,0 +1,4 @@
+debugger;
+
+SourceMaps
+devtool: 'cheap-module-eval-source-map'  ---- in webpack.config.js
