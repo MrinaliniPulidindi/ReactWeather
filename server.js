@@ -12,7 +12,6 @@ if(req.headers['x-forwarded-proto'] === 'https')
   res.redirect('http://'+req.hostname+req.url);
 }
 else {
-
   next();
 }
 });
