@@ -1,0 +1,31 @@
+
+Web PAck
+
+1. Manage dependencies using NPM
+2. break component into seperate files
+
+Bundle 3rd party tools like bable,ract js adn also application components.
+Can have seperate files.
+
+USage:
+   webpack .\directory\app.js .\directory\bundle.js
+
+1. jsx es6
+1.config file to configure bable
+2. create webpack.config.js file in root
+module.exports ={
+  entry: './public/app.js',
+  output: {
+    path: __dirname,
+    filename: './public/bundle.js'
+  },
+  resolve: {
+    extesnions: ['',' ','.js','.jsx']  }
+
+};
+Then type
+webpack
+
+3. "__dirname" is a variable available in nodejs. It returns of the path of the file.
+4. webpack -w 
+will wait for any updates in the files and create a bundle
